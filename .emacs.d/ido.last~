@@ -1,0 +1,30 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/john/" . ".emacs.d/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/john/.emacs.d/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "init.el"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/john/.emacs.d/" (22883 178 431757 573000) "init.el~" "./" "elpa/" "snippets/" "init.el" "../" "auto-save-list/" "ido.last" "places" "ido.last~")
+
+ ("/home/john/Documents/" (22878 36087 81211 704000) "./" "../")
+
+ ("/home/john/Desktop/" (22878 44933 659889 61000) "./" "../" "Arduino Create Agent.desktop")
+
+ ("/home/john/" (22882 64258 876778 114000) ".mozilla/" "Videos/" ".pki/" "init.el~" "Documents/" "Downloads/" ".gnupg/" "./" ".profile" ".cache/" ".sudo_as_admin_successful" ".bash_logout" "init.el" ".xsession-errors" ".config/" ".emacs.d/" ".local/" ".bashrc" "../" ".bash_history" ".macromedia/" "Desktop/" ".arduino-create/" ".xsession-errors.old" ".Xauthority" "arduino/" "Public/" ".ICEauthority" "Pictures/" "gitRepos/" "Music/" ".gconf/" ".nvidia-settings-rc" ".compiz/" ".adobe/" ".gnome/" ".dmrc" "Templates/")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
