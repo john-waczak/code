@@ -1,0 +1,21 @@
+#include <iostream>
+#inlcude <sting>
+
+using namespace std;
+
+class JohnsClass{
+
+public:
+  string name ;
+  
+
+};
+
+
+int main() {
+
+  JohnsClass jc;
+  jc.name = "John Waczak";
+  cout << jc.name; 
+  return 0; 
+}

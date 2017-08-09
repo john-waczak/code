@@ -1,0 +1,14 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+
+  int tuna = 99;
+
+  tuna = 76; 
+
+  ocut << tuna; 
+
+  return 0; 
+}
