@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+class JohnsClass
+{
+public:
+  void coolSaying(){
+    cout << "Preachin to the choir" << endl;
+  }
+  
+  
+
+};
+
+int main()
+{
+
+
+}
