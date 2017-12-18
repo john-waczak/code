@@ -1,9 +1,0 @@
-import numpy as np
-import cv2
-
-# Load a color image in grayscale
-img = cv2.imread("~/gitRepos/code/python/OpenCV_scripts/images/oblivion.png", 0)
-
-cv2.imshow('image', img)
-cv2.waitkey(0)
-cv2.destroyAllWindows()
