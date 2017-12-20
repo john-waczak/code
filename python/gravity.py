@@ -8,7 +8,7 @@ G = 1e4
 dt = 1e-2
 planets = []
 numIterations = 1000
-scale = 100
+scale = 150
 
 
 class State:
@@ -116,6 +116,7 @@ if __name__ == "__main__":
 
     fig = plt.figure()
     ax = fig.gca(projection='3d')
+    ax.view_init(30, 45)
     ax.axis('off')
     lines = []
     pts = []
@@ -145,6 +146,8 @@ if __name__ == "__main__":
             pts[j].set_3d_properties(Z[j, i])
             
     anim = animation.FuncAnimation(fig, animate, frames=numIterations-1,
-                                   interval=100, fargs=(X, Y, Z))
+                                   interval=30, fargs=(X, Y, Z))
 
+    anim.save("trajectory.mp4", writer='ffmpeg')
+    
     plt.show()
