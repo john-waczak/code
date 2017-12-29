@@ -133,10 +133,10 @@ if __name__ == "__main__":
 
     def init():
         for j in range(numPlanets):
-            line.set_data([], [])
-            line.set_3d_properties([])
-            pts.set_data([], [])
-            pts.set_3d_properties([])
+            lines[j].set_data([], [])
+            lines[j].set_3d_properties([])
+            pts[j].set_data([], [])
+            pts[j].set_3d_properties([])
             
     def animate(i, X, Y, Z):
         for j in range(numPlanets):
@@ -146,7 +146,8 @@ if __name__ == "__main__":
             pts[j].set_3d_properties(Z[j, i])
             
     anim = animation.FuncAnimation(fig, animate, frames=numIterations-1,
-                                   interval=30, fargs=(X, Y, Z))
+                                init_func=init,
+                                interval=30, fargs=(X, Y, Z))
 
     anim.save("trajectory.mp4", writer='ffmpeg')
     
