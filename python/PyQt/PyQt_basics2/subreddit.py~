@@ -1,0 +1,14 @@
+import urllib2
+import json
+import time
+
+def get_top_post(subreddit):
+    url = "https://www.reddit.com/r/{}.json?limit=1".format(subreddit)
+    headers = {'User-Agent': 'waczakj@oregonstate.edu tutorial code'}
+    request = urllib2.Request(url, headers=headers)
+    response = urllib2.urlopen(request)
+    data = json.load(response)
+    top_post = dat['data']['children'][0]['data']
+    return "'{title}' by {author} in {sureddit}".format(**top_post)
+
+def

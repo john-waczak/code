@@ -1,0 +1,5 @@
+PyQt4 (python 2) and PyQt5 (python 3)
+
+using Qt 4 designer to make .ui file and then convert to python and program button click events.
+
+valuable resource: https://nikolak.com/pyqt-qt-designer-getting-started/
