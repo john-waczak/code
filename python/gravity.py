@@ -90,9 +90,9 @@ class Planet:
 if __name__ == "__main__":
     planets.append(Planet(5, 100, 0, 0.0001, 0,  0, 0, 0))
     planets.append(Planet(1, 1, 0, 20, 0, 200, 0, 0))
-    planets.append(Planet(1, 1, 0, 0, 30, 200, 0, 0))
-    planets.append(Planet(1, 1, 0, -20, 0, -200, 0, 0))
-    planets.append(Planet(1, 10, 20, -50, 40, 100, 50, -30))
+#    planets.append(Planet(1, 1, 0, 0, 30, 200, 0, 0))
+#    planets.append(Planet(1, 1, 0, -20, 0, -200, 0, 0))
+#    planets.append(Planet(1, 10, 20, -50, 40, 100, 50, -30))
 
     numPlanets = len(planets)
 
